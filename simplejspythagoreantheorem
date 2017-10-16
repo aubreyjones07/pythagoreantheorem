@@ -1,0 +1,5 @@
+
+var sideA = prompt("Please Enter a Number for A:");
+var sideB = prompt("Please Enter Another Number for B:"); 
+var sideC = Math.sqrt(Math.pow(sideA, 2)) + (Math.pow(sideB, 2)); 
+console.log("This is the Hypotenuse: " + sideC); 
